@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	height: 100%;
+	margin-top: 100px;
+	background:#2148C0;
+	background-image: url("img/Ellipse.png"), url("img/Vector.png"), url("img/Ellipse (1).png"), url("img/Ellipse (2).png");
+	background-repeat: no-repeat, no-repeat, no-repeat;
+	background-position: -2% 220%,top right, -68px 380%, -10% 1100%;
+	background-size: 250px, 800px, 350px, 420px;
+}
+
+a {
+	text-decoration: none;
+	margin-left: 190px;
+	color: #fff;
+}
+
+.form{
+	 display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.login{
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	min-width: 300px;
+	min-height: 45px;
+	background-image: url("img/user.png");
+	background-repeat: no-repeat;
+	background-position: 5% 45%;
+}
+.password{
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.08);
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	min-width: 300px;
+	min-height: 45px;
+	background-image: url("img/lock.png");
+	background-repeat: no-repeat;
+	background-position: 5% 45%;
+}
+.btn{
+	font-family: 'Montserrat';
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	text-transform: capitalize;
+	color: #2148C0;
+	background: #FFFFFF;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 8px;
+	min-width: 300px;
+	min-height: 52px;
+	margin-top: 20px;
+
+}
+.login::placeholder{
+	padding-left: 50px;
+	color: #fff;
+	
+}
+.password::placeholder{
+	padding-left: 50px;
+	color: #fff;
+}
